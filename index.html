@@ -1,1 +1,164 @@
-<!DOCTYPE html> <html lang="en"> <head> <meta charset="UTF-8" /> <meta name="viewport" content="width=device-width, initial-scale=1.0"/> <title>AURUM | Men's Fragrance</title> <!-- Google Fonts --> <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet"> <style> :root { --black: #0f0f0f; --dark-gray: #1c1c1c; --gold: #c9a24d; --white: #ffffff; --light-gray: #cccccc; } * { box-sizing: border-box; margin: 0; padding: 0; } body { font-family: 'Montserrat', sans-serif; background-color: var(--black); color: var(--white); line-height: 1.6; } header { background: var(--black); padding: 20px 40px; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #222; } header h1 { font-family: 'Cinzel', serif; letter-spacing: 4px; color: var(--gold); } nav a { color: var(--white); margin-left: 25px; text-decoration: none; font-weight: 500; } nav a:hover { color: var(--gold); } .hero { height: 90vh; background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.9)), url("https://images.unsplash.com/photo-1594035910387-fea47794261f") center/cover no-repeat; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; padding: 20px; } .hero h2 { font-family: 'Cinzel', serif; font-size: 3rem; letter-spacing: 6px; margin-bottom: 20px; } .hero p { color: var(--light-gray); max-width: 600px; margin-bottom: 30px; } .btn { background: var(--gold); color: var(--black); padding: 15px 35px; border-radius: 30px; text-decoration: none; font-weight: 600; transition: 0.3s; } .btn:hover { background: #b8933f; } section { padding: 80px 10%; } .section-title { font-family: 'Cinzel', serif; letter-spacing: 3px; margin-bottom: 40px; color: var(--gold); text-align: center; } .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 40px; } .card { background: var(--dark-gray); padding: 30px; border-radius: 15px; text-align: center; } footer { background: #080808; padding: 30px; text-align: center; color: #777; font-size: 0.9rem; } </style> </head> <body> <header> <h1>AURUM</h1> <nav> <a href="#home">Home</a> <a href="#about">About</a> <a href="#fragrance">Fragrances</a> <a href="#contact">Contact</a> </nav> </header> <section class="hero" id="home"> <h2>AURUM</h2> <p>Refined. Masculine. Timeless. Crafted for men who command presence.</p> <a href="#fragrance" class="btn">Explore Fragrances</a> </section> <section id="about"> <h2 class="section-title">About Aurum</h2> <p style="text-align:center; max-width:800px; margin:auto; color:#ccc;"> Aurum is a men’s fragrance brand built on confidence, craftsmanship, and restraint. Each scent is designed to be bold yet refined — a signature, not a statement. </p> </section> <section id="fragrance"> <h2 class="section-title">Fragrances</h2> <div class="grid"> <div class="card"> <h3>Aurum Noir</h3> <p>Warm woods, vanilla, and amber. Deep. Confident.</p> </div> <div class="card"> <h3>Aurum Gold</h3> <p>Citrus top notes with spice and smooth musk.</p> </div> <div class="card"> <h3>Aurum Night</h3> <p>Dark, smoky, mysterious. Built for evenings.</p> </div> </div> </section> <section id="contact"> <h2 class="section-title">Contact</h2> <p style="text-align:center; color:#ccc;"> inquiries@aurumfragrance.com<br/> Instagram: @aurum </p> </section> <footer> © 2026 AURUM. All rights reserved. </footer> </body> </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AURUM | Men's Fragrance</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --black: #0f0f0f;
+      --dark-gray: #1c1c1c;
+      --gold: #c9a24d;
+      --white: #ffffff;
+      --light-gray: #cccccc;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background-color: var(--black);
+      color: var(--white);
+      line-height: 1.6;
+    }
+
+    header {
+      background: var(--black);
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #222;
+    }
+
+    header h1 {
+      font-family: 'Cinzel', serif;
+      letter-spacing: 4px;
+      color: var(--gold);
+    }
+
+    nav a {
+      color: var(--white);
+      margin-left: 25px;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    nav a:hover {
+      color: var(--gold);
+    }
+
+    .hero {
+      height: 90vh;
+      background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.9)),
+        url("https://images.unsplash.com/photo-1594035910387-fea47794261f") center/cover no-repeat;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .hero h2 {
+      font-family: 'Cinzel', serif;
+      font-size: 3rem;
+      letter-spacing: 6px;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      color: var(--light-gray);
+      max-width: 600px;
+      margin-bottom: 30px;
+    }
+
+    .btn {
+      background: var(--gold);
+      color: var(--black);
+      padding: 15px 35px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #b8933f;
+    }
+
+    section {
+      padding: 80px 10%;
+    }
+
+    .section-title {
+      font-family: 'Cinzel', serif;
+      letter-spacing: 3px;
+      margin-bottom: 40px;
+      color: var(--gold);
+      text-align: center;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 40px;
+    }
+
+    .card {
+      background: var(--dark-gray);
+      padding: 30px;
+      border-radius: 15px;
+      text-align: center;
+    }
+
+    footer {
+      background: #080808;
+      padding: 30px;
+      text-align: center;
+      color: #777;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>AURUM</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#fragrance">Fragrances</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <h2>AURUM</h2>
+    <p>Refined. Masculine. Timeless. Crafted for men who command presence.</p>
+    <a href="#fragrance" class="btn">Explore Fragrances</a>
+  </section>
+
+  <section id="about">
+    <h2 class="section-title">About Aurum</h2>
+    <p style="text-align:center; max-width:800px; margin:auto; color:#ccc;">
+      Aurum is a men’s fragrance brand built on confidence, craftsmanship, and restraint.
+      Each scent is designed to be bold yet refined — a signature, not a statement.
+    </p>
+  </section>
+
+  <section id="fragrance">
+    <h2 class="section-title">Fragrances</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Aurum Noir</
+
